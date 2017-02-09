@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "karma": "./node_modules/karma/bin/karma"
+    "karma": "./node_modules/karma/bin/karma start --auto-watch"
   },
   "dependencies": {
     "body-parser": "~1.16.0",
@@ -16,6 +16,7 @@
     "serve-favicon": "~2.3.2"
   },
   "devDependencies": {
+    "jasmine-core": "^2.5.2",
     "karma": "^1.4.1",
     "karma-chrome-launcher": "^2.0.0",
     "karma-firefox-launcher": "^1.0.0",
