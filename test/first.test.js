@@ -1,23 +1,7 @@
 describe('getDiv', function() {
-  var d = document.querySelector('.box');
+  var d = 123
 
-  it('Should exist', function() {
-    expect(d.nodeName).not.toBe('DIV')
-  });
-});
-
-describe('getDivBg', function() {
-  var d = document.querySelector('.box');
-
-  it('Should be teal', function() {
-    expect(d.style.backgroundColor).not.toBe('teal');
-  });
-});
-
-describe('getDivAttribute', function() {
-  var d = document.querySelector('.box');
-
-  it('Should be bar', function() {
-    expect(d.getAttribute('foo')).not.toBe('bar');
+  it('Should be a number', function() {
+    expect(d).toEqual(jasmine.any(Number));
   });
 });
