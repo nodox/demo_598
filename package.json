@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
     "istanbul": "^0.4.5",
     "jasmine-core": "^2.5.2",
     "karma": "^1.4.1",
@@ -26,7 +27,6 @@
     "karma-coverage": "^1.1.1",
     "karma-firefox-launcher": "^1.0.0",
     "karma-jasmine": "^1.1.0",
-    "mocha": "^3.2.0",
-    "request": "^2.79.0"
+    "mocha": "^3.2.0"
   }
 }
