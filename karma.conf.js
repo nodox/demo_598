@@ -16,7 +16,7 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       'dist/*.js',
-      'test/*.spec.js'
+      'test/client/*.spec.js'
     ],
 
 
@@ -43,8 +43,14 @@ module.exports = function(config) {
 
     // optionally, configure the reporter
     coverageReporter: {
-      type : 'lcovonly',
-      dir : 'coverage/'
+
+      // specify a common output directory
+      dir : 'coverage/',
+      reporters: [
+        { type: 'lcov', subdir: 'report-lcov' }
+      ]
+
+
     },
 
 
