@@ -10,7 +10,7 @@ const multiplyMatrices = () => {
 
   var m1 = [];
   var m2 = [];
-  for (var i = 10000; i >= 0; i--) {
+  for (var i = 50000; i >= 0; i--) {
     m1.push(
       [Math.round(i*Math.random()), Math.round(i*Math.random())]
     );
