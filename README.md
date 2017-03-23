@@ -3,3 +3,6 @@
 [![Code Climate](https://codeclimate.com/github/nodox/university/badges/gpa.svg)](https://codeclimate.com/github/nodox/university)
 
 [![Issue Count](https://codeclimate.com/github/nodox/university/badges/issue_count.svg)](https://codeclimate.com/github/nodox/university)
+
+
+λ mongoimport --db db_598 --collection users --type json --file userdata.json --jsonArray
