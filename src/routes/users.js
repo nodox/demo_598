@@ -3,6 +3,7 @@ var router = express.Router();
 var User = require('../model/user');
 
 
+
 // var db = mongoose.connect('mongodb://localhost/db_598');
 
 /* GET users listing. */
